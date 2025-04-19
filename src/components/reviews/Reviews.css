@@ -1,0 +1,88 @@
+.reviews-sec .title{
+    color: var(--text-color);
+    font-weight: bold;
+    font-family: "Playfair", serif;
+}
+.reviews .reviews-content{
+    background-color:var(--text-color);
+    width: 300px;
+    height: 410px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #555;
+}
+.reviews .quote-img img{
+    width: 50px;
+    height: 50px;
+}
+.reviews .text p{
+    color: #555;
+    margin-top: -10px;
+}
+.reviews .text .star-icon{
+    color: #ffd43b;
+}
+.reviews .img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.reviews .details{
+    margin-left: 10px;
+}
+.reviews .details h3{
+    color: #780101;
+    font-size: 18px;
+    margin-top: -4px;
+}
+.reviews .details p{
+    color: #555;
+    font-size: 14px;
+    line-height: 0.2;
+}
+/*****************************/
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.modal-content {
+    background-color: #fff;
+    padding: 35px 25px ;
+    border-radius: 6px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}  
+.close-btn{
+    height: 40px;
+    background-color: #555;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.close-btn:hover{
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.modal-content h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #4f0101;
+}
+.modal-content .form-control {
+    border-radius: 4px;
+}
+.stars .star-icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}

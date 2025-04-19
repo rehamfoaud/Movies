@@ -1,0 +1,70 @@
+.hcarousel .carousel-content{
+    height: 100vh;
+    position: relative;
+}
+.hcarousel img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.hcarousel .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color:rgba(11, 11, 11, 0.56);
+}
+.hcarousel .carousel-caption{
+    z-index: 2;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+    width:40%;
+}
+.hcarousel .carousel-caption h2{
+    font-family: "Playfair", serif;
+    text-transform:Capitalize;
+    font-size:40px;
+}
+.hcarousel .carousel-caption p{
+    font-size:22px;
+    text-transform:Capitalize;
+}
+.hcarousel .carousel-caption h3{
+    font-family: "Cinzel", serif;
+    letter-spacing: -2px;
+    font-weight:bold;
+}
+@media (max-width:1390px){
+    .hcarousel .carousel-caption{width:45%;}
+}
+@media (max-width:1236px){
+    .hcarousel .carousel-caption{width:52%;}
+}
+@media (max-width:1073px){
+    .hcarousel .carousel-caption{width:60%;}
+}
+@media (max-width:930px){
+    .hcarousel .carousel-caption{width:72%;}
+}
+@media (max-width:774px){
+    .hcarousel .carousel-caption{width:85%;}
+}
+@media (max-width:660px){
+    .hcarousel .carousel-caption{width:97%;}
+}
+@media (max-width:575px){
+    .hcarousel .carousel-caption h2{font-size:30px;}
+    .hcarousel .carousel-caption p{font-size:18px;}
+    .hcarousel .carousel-caption h3{font-size:21px;}
+}
+@media (max-width:435px){
+    .hcarousel .carousel-caption{top:35%}
+    .hcarousel .carousel-caption h2{font-size:25px;}
+    .hcarousel .carousel-caption p{font-size:17px;}
+    .hcarousel .carousel-caption h3{font-size:20px;}
+}
+@media (max-width:345px){
+    .hcarousel .carousel-caption h2{font-size:23px;}
+}

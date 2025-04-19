@@ -1,0 +1,20 @@
+.swiper-button-prev,
+.swiper-button-next{
+    color: #780101;
+}
+.trending-movies h2{
+    font-family: "Playfair", serif;
+    font-weight: bold;
+}
+.trending-movies .swiper-slide {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trending-movies .swiper-slide img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}

@@ -1,0 +1,22 @@
+.buttonComponent .btn{
+    position: relative;
+    transition: 0.5s;
+    overflow:hidden;
+}
+.buttonComponent .btn::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transform: scaleX(0);
+   background-color:rgba(18, 18, 18, 0.49);
+   border-radius: 50px;
+   transition: 0.5s;
+   transform-origin: 0 0;
+   transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.buttonComponent .btn:hover::before{
+   transform:scaleX(1);
+}

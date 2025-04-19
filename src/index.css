@@ -1,0 +1,28 @@
+:root{
+  --bg-color:linear-gradient(to right,#15121a, #2b2b2b);
+  --text-color:#fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  background-image: var(--bg-color);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+::-webkit-scrollbar {
+  width: 12px; 
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

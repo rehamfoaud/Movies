@@ -1,0 +1,47 @@
+.footer{
+   height:auto;
+   padding: 80px 0;
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+}
+.footer .container{
+    position: relative;
+    z-index: 1;
+}
+.footer .overlay{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #2a292980;
+}
+.footer .footer-logo img{
+    width:90px;
+    height:45px;
+}
+.footer .title{color: #922626;}
+.footer ul{
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+}
+.footer ul li{transition: 0.5s;}
+.footer ul li:hover{
+    cursor: pointer;
+    transform: translateX(5px);
+    opacity: 0.7;
+}
+.footer .icons .icon{
+    font-size: 22px;
+    color: #fff;
+    transition: 0.5s;
+}
+.footer .icon:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    opacity: 0.7;
+}
